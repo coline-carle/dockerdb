@@ -11,7 +11,7 @@ if [ -f "$PG_PASSWORD_FILE" ]; then
   export PG_PASSWORD=$(cat "$PG_PASSWORD_FILE")
 fi
 
-if [ -f "WALE_S3_PREFIX_FILE" ]; then
+if [ -f "$WALE_S3_PREFIX_FILE" ]; then
   export WALE_S3_PREFIX=$(cat "$WALE_S3_PREFIX_FILE")
 fi
 
