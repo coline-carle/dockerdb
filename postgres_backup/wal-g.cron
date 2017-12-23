@@ -1,0 +1,2 @@
+0 3 * * * set-walg-env wal-g backup-push $PGDATA
+0 4 * * * set-walg-env wal-g delete retain FULL $RETAIN --confirm
