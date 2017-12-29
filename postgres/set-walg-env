@@ -7,8 +7,8 @@ if [ -f "$AWS_SECRET_ACCESS_KEY_FILE" ]; then
   export AWS_SECRET_ACCESS_KEY=$(cat "$AWS_SECRET_ACCESS_KEY_FILE")
 fi
 
-if [ -f "$PG_PASSWORD_FILE" ]; then
-  export PG_PASSWORD=$(cat "$PG_PASSWORD_FILE")
+if [ -f "$PGPASSWORD_FILE" ]; then
+  export PGPASSWORD=$(cat "$PGPASSWORD_FILE")
 fi
 
 if [ -f "$WALE_S3_PREFIX_FILE" ]; then
